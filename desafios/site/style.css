@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgba(152, 189, 219, 0.76), rgba(34, 54, 230, 0.87));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    
+}
+header{
+    font-family: 'Rowdies', 'sans-serif';
+    font-weight: normal;
+    text-align: center;
+    background-color: rgba(119, 136, 153, 0.39);
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+}
+main{
+    text-align: center;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+#sualista{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: initial;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    padding: 2px;
+}
+ol{
+    text-align: center;
+}
+img{
+    width: 25px;
+}
+a{
+    text-align: center;
+}
+footer{
+    margin: auto;
+    margin-top: 5px;
+    width: 250px;
+    padding-top: 3px;
+    background-color: rgba(128, 128, 128, 0.144);
+    text-align: center;
+    border-radius: 15px;
+}
+#redes{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#iconx{
+    padding-bottom: 3px;
+    padding-left: 30px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5.</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospeado no meu próprio servidor.</p>
+    <video controls autoplay loop poster="imagens/cidade-capa.png" width="560">
+        <source src="midia/meu-video.mkv" type="video/mkv">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e9dZQelULDk?si=lZdojCUbwhLb7hTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <!--Ainda tem a opção do Vimeo com personalizações diferentes-->
+</body>
+</html>
