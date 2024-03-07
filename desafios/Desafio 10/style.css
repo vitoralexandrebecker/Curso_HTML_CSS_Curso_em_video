@@ -145,6 +145,7 @@ ul{
     list-style-type: '\2714\00A0';
     columns: 2;
     list-style-position: inside;
+    text-align: none;
 }
 img{
     max-width: 100%;
